@@ -1,1 +1,173 @@
+{
+	"name": "Defect puzzle",
+	"author": "Rucodeby",
+	"version": "Final",
+	"puzzles": [
+		{
+			"name": "name",
+			"maxHp": 20,
+			"curHp": 20,
+			"masterHandSize": 5,
+			"maxEnergy": 3,
+			"startingDrawPile": [
+				{
+					"key": "FTL"
+				},
+				{
+					"key": "Meteor Strike",
+					"upgradeCount": 1
+				},
+				{
+					"key": "Thunder Strike"
+				},
+				{
+					"key": "All For One"
+				},
+				{
+					"key": "Recycle"
+				},
+				{
+					"key": "Force Field",
+					"upgradeCount": 1
+				}
+			],
+			"startingDiscardPile": [
+				{
+					"key": "Recycle"
+				}
+			],
+			"relics": [
+				{
+					"key": "Gremlin Horn"
+				},
+				{
+					"key": "Kunai"
+				},
+				{
+					"key": "Oddly Smooth Stone"
+				}
+			],
+			"potions": [
+				{
+					"key": "Dexterity Potion"
+				}
+			],
+			"orbSlots": 3,
+			"monsters": [
+				{
+					"name": "CA-CAAW",
+					"template": "Cultist",
+					"maxHp": 55,
+					"damage": 40,
+					"hb_x": -8.0,
+					"hb_y": 10.0,
+					"entranceDialog": "You shall not pass"
+				},
+				{
+					"name": "Bite",
+					"template": "Jaw Worm",
+					"maxHp": 10,
+					"damage": 20,
+					"hb_x": -8.0,
+					"hb_y": 10.0,
+					"offsetX": -350.0,
+     			    "offsetY": -20.0,
+					"scale": 0.4
+					}
+			]
+		},
+		{
+			"name": "name",
+			"maxHp": 20,
+			"curHp": 20,
+			"masterHandSize": 5,
+			"maxEnergy": 3,
+			"startingDrawPile": [
+				{
+					"key": "Glacier"
+				},
+				{
+					"key": "Fission"
+				},
+				{
+					"key": "Rainbow"
+				},
+				{
+					"key": "Chill"
+				},
+				{
+					"key": "BootSequence"
+				},
+				{
+					"key": "Consume"
+				},
+				{
+					"key": "Blizzard"
+				}
+			],
+			"startingDiscardPile": [
+				{
+					"key": "Auto Shields"
+				}
+			],
+			"relics": [
+				{
+					"key": "Lantern"
+				},
+				{
+					"key": "Coffee Dripper"
+				}
+			],
+			"orbSlots": 3,
+			"monsters": [
+				{
+					"name": "CA-CAAW",
+					"template": "Cultist",
+					"maxHp": 15,
+					"damage": 60,
+					"fade": 1,
+					"hb_x": -8.0,
+					"hb_y": 10.0,
+					"entranceDialog": "You shall not pass"
+				},
+				{
+					"name": "Bite",
+					"template": "Jaw Worm",
+					"maxHp": 8,
+					"damage": 20,
+					"hb_x": -8.0,
+					"hb_y": 10.0,
+					"offsetX": -350.0,
+     			    "offsetY": -20.0,
+					"scale": 0.1
+				},
+				{
+					"name": "Bite",
+					"template": "Jaw Worm",
+					"maxHp": 23,
+					"damage": 23,
+					"fade": 1,
+					"hb_x": -8.0,
+					"hb_y": 10.0,
+					"offsetX": 250.0,
+     			    "offsetY": 20.0,
+					"scale": 0.1
+				},
+				{
+					"name": "Bite",
+					"template": "Jaw Worm",
+					"maxHp": 11,
+					"damage": 20,
+					"hb_x": -8.0,
+					"hb_y": 10.0,
+					"offsetX": -600.0,
+     			    "offsetY": 10.0,
+					"scale": 0.1
+				}
+			]
+		}
+	],
+	"boss": {
 
+	}
+}
