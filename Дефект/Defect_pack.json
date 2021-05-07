@@ -67,7 +67,8 @@
 					"atlasUrl": "images/monsters/theBottom/cultist/skeleton.atlas",
 					"skeletonUrl": "images/monsters/theBottom/cultist/skeleton.json",
 					"animation": "waving",
-					"entranceDialog": "You shall not pass"
+					"entranceDialog": "You shall not pass",
+					"scale": 1.0
 				},
 				{
 					"name": "Bite",
@@ -75,8 +76,8 @@
 					"damage": 20,
 					"hb_x": 0.0,
 					"hb_y": -25.0,
-					"hb_h": 170.0,
-					"hb_w": 260.0,
+					"hb_h": 85.0,
+					"hb_w": 130.0,
 					"dialogX": -50.0,
 					"dialogY": 15.0,
 					"atlasUrl": "images/monsters/theBottom/jawWorm/skeleton.atlas",
@@ -84,8 +85,8 @@
 					"animation": "idle",
 					"offsetX": -350.0,
      			    "offsetY": -20.0,
-					"scale": 0.5
-					}
+					"scale": 1.5
+				}
 			]
 		},
 		{
@@ -148,8 +149,8 @@
 					"damage": 20,
 					"hb_x": 0.0,
 					"hb_y": -25.0,
-					"hb_h": 170.0,
-					"hb_w": 260.0,
+					"hb_h": 85.0,
+					"hb_w": 130.0,
 					"dialogX": -50.0,
 					"dialogY": 15.0,
 					"atlasUrl": "images/monsters/theBottom/jawWorm/skeleton.atlas",
@@ -157,7 +158,7 @@
 					"animation": "idle",
 					"offsetX": -350.0,
      			    "offsetY": -20.0,
-					"scale": 0.5
+					"scale": 1.5
 				},
 				{
 					"name": "Bite",
@@ -166,8 +167,8 @@
 					"fade": 1,
 					"hb_x": 0.0,
 					"hb_y": -25.0,
-					"hb_h": 170.0,
-					"hb_w": 260.0,
+					"hb_h": 85.0,
+					"hb_w": 130.0,
 					"dialogX": -50.0,
 					"dialogY": 15.0,
 					"atlasUrl": "images/monsters/theBottom/jawWorm/skeleton.atlas",
@@ -175,7 +176,7 @@
 					"animation": "idle",
 					"offsetX": 250.0,
      			    "offsetY": 20.0,
-					"scale": 0.5
+					"scale": 1.5
 				},
 				{
 					"name": "Bite",
@@ -183,8 +184,8 @@
 					"damage": 20,
 					"hb_x": 0.0,
 					"hb_y": -25.0,
-					"hb_h": 170.0,
-					"hb_w": 260.0,
+					"hb_h": 85.0,
+					"hb_w": 130.0,
 					"dialogX": -50.0,
 					"dialogY": 15.0,
 					"atlasUrl": "images/monsters/theBottom/jawWorm/skeleton.atlas",
@@ -192,7 +193,7 @@
 					"animation": "idle",
 					"offsetX": -600.0,
      			    "offsetY": 10.0,
-					"scale": 0.1
+					"scale": 1.5
 				}
 			]
 		}
